@@ -527,7 +527,7 @@ module.exports = function (webpackEnv) {
           {
             inject: true,
             template: paths.appHtml,
-            fileName: 'index.html',
+            filename: 'index.html',
             chunks: ['index']
           },
           isEnvProduction
@@ -554,7 +554,7 @@ module.exports = function (webpackEnv) {
           {
             inject: true,
             template: paths.appQueryHtml,
-            fileName: 'query.html',
+            filename: 'query.html',
             chunks: ['query']
           },
           isEnvProduction
@@ -581,7 +581,7 @@ module.exports = function (webpackEnv) {
           {
             inject: true,
             template: paths.appOrderHtml,
-            fileName: 'order.html',
+            filename: 'order.html',
             chunks: ['order']
           },
           isEnvProduction
@@ -608,7 +608,7 @@ module.exports = function (webpackEnv) {
           {
             inject: true,
             template: paths.appTicketHtml,
-            fileName: 'ticket.html',
+            filename: 'ticket.html',
             chunks: ['ticket']
           },
           isEnvProduction

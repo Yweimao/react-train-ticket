@@ -20,10 +20,14 @@ function App(props) {
     )
 }
 const mapStateToProps =(state) => {
+  return {
 
+  }
 }
 const mapDispatchToProps = (dispatch) => {
+  return {
 
+  }
 }
 
 

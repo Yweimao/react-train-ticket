@@ -43,6 +43,7 @@
     "postcss-normalize": "7.0.1",
     "postcss-preset-env": "6.7.0",
     "postcss-safe-parser": "4.0.1",
+    "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-app-polyfill": "^1.0.4",
     "react-dev-utils": "^9.1.0",
@@ -59,9 +60,9 @@
     "ts-pnp": "1.1.4",
     "url-loader": "2.1.0",
     "webpack": "4.41.0",
+    "webpack-dev-server": "3.1.14",
     "webpack-manifest-plugin": "2.1.1",
-    "workbox-webpack-plugin": "4.3.1",
-    "webpack-dev-server": "3.1.14"
+    "workbox-webpack-plugin": "4.3.1"
   },
   "proxy": "http://localhost:5000",
   "scripts": {

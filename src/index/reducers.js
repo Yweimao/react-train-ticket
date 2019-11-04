@@ -10,7 +10,7 @@ import {
 } from './actions'
 
 export default {
-  form(state = '北京', action) {
+  from(state = '北京', action) {
     const {type, payload} = action
     switch (type) {
       case ACTION_SET_FORM:

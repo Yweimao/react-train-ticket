@@ -47,7 +47,7 @@ export default {
     return state
   },
   cityData(state = null, action) {
-    const {type, payload} = action
+    const {type, payload} = action;
     switch (type) {
       case ACTION_SET_CITYDATA:
         return payload;

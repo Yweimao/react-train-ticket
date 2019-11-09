@@ -11,7 +11,9 @@ import CitySelector from "../common/CitySelector";
 import {
     exChangeFromTo,
     showCitySelector,
-    hideCitySelector
+    hideCitySelector,
+    fetchCityData,
+    setSelectedCity
 } from "./actions";
 
 function App(props) {
@@ -36,7 +38,9 @@ function App(props) {
 
     const citySelectorCbs = useMemo(() => {
         return bindActionCreators({
-            onBack: hideCitySelector
+            onBack: hideCitySelector,
+            fetchCityData,
+            onSelect: setSelectedCity
         }, dispatch)
     }, [])
 
